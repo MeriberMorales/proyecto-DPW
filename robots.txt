@@ -1,0 +1,7 @@
+
+User-agent: *
+
+Disallow: /admin/
+Disallow: /imagenes-prueba/
+
+Sitemap: https://aromacafe.netlify.app/sitemap.xml
