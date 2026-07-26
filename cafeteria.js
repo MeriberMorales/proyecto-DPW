@@ -12,3 +12,12 @@ promoBtn.addEventListener("click", function () {
 window.onload = function () {
     console.log("Bienvenido a Cafetería Aroma Café");
 };
+//Debe ser la LÍNEA 1 de tu archivo
+require('dotenv').config(); 
+
+//Luego siguen tus importaciones normales...
+const express = require('express'); 
+
+// ✅ AHORA:
+const puerto = process.env.PORT || 3000;
+const conexion = process.env.DB_URI;
