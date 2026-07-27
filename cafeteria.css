@@ -17,7 +17,8 @@ body{
 /* ===== ENCABEZADO ===== */
 
 header{
-    background: linear-gradient(135deg, #4e342e, #6d4c41);
+    /* Cambiamos el degradado original por un tono ámbar/dorado para la prueba CI/CD */
+    background: linear-gradient(135deg, #d35400, #e67e22); 
     color: white;
     padding: 20px;
     text-align: center;
